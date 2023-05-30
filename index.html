@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Assignment#2 for Chintan Joshi</title>
+
+<style>
+
+   .h1tag
+   {
+    font-style: italic;
+    color: burlywood;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.195);
+    border: 3px solid lightcoral;
+
+   }
+
+   .ollist
+   {
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: auto;
+    color: white;
+    font-style: italic;
+   }
+   
+   body
+   {
+    background-image: url("image.png");
+   }
+
+   .bt
+   {
+    background-color: darkgray;
+    border-radius: 15px;
+    padding: 10px 15px;
+   }
+
+   .bt:hover
+   {
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    padding: auto;
+   }
+
+</style>
+
+
+</head>
+<body>
+       <hr style = "border: 1.5px solid whitesmoke;">
+       <h1 class="h1tag"> SYST 10199 <br> Assignment 2 <br> Chintan Joshi <br> </h1>
+
+       <hr style = "border: 1.5px solid whitesmoke;">
+  
+
+       <ol class="ollist">
+        <li> Welcome to an basic site which helps you convert a nummber to any unit :) </li>
+        <li> How to ineract with this site it is basically simple </li>
+        <li> Just click on the number system buttons mentioned below to convert the number into units you want :) </li>
+        <li> that's it have fun </li>
+        </ol>
+      <br> <br>
+<form style="background-color: rgba(0, 0, 0, 0.432); color: white;">
+
+    <fieldset style="border: 5px solid rgba(251, 95, 149, 0.944);">
+      <legend style="text-align: center; font-size: large;"> Unit conversion system  </legend>
+      
+      <label>
+        Please enter the amount which you want to convert 
+      <br>  <input type ="number" placeholder="Type here" required id="textarea">
+      </label>
+
+
+      <br>
+      <br> 
+      <input type ="button" id="bton1" value="ounce to milliliter" class = "bt">
+
+      <input type ="button" id="bton2" value="milliliter to ounce" class = "bt">
+
+      <br>
+      <br>
+      <input type ="button" id="bton3" value="Liter to milliliter" class = "bt">
+
+      <input type ="button" id="bton4" value="Milliliter to Liter" class = "bt">
+
+      <br>
+      <br>
+
+      <input type ="button" id="bton5" value="Inches to Centimeter" class = "bt">
+
+      <input type ="button" id="bton6" value="Centimeter to Inches" class = "bt">
+      
+      <br>
+      <br>
+
+      <input type ="button" id="bton7" value="Pounds to Kilogram" class = "bt">
+      
+      <input type ="button" id="bton8" value="Kilogram to Pounds" class = "bt">
+
+
+      <br>
+      <br>
+
+      <p id="para"> This is where the result will be displayed according to the unit which you will choose :) </p>
+
+      <br>
+      <input type="reset" id="clr" value="Click me to clear reset the value" class = "bt">
+    </fieldset>
+</form>
+
+<script src="_Jscripts/logic.js"> </script>
+
+</body>
+</html>
